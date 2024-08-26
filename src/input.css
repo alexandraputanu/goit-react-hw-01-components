@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-blue-500;
+  }
+}
+/*npx tailwindcss build ./src/input.css -o ./public/output.css
+*/
